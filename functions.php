@@ -36,6 +36,7 @@ function register_recipe_post_type()
 
   $args = array(
     'labels'              => $labels,
+    'slug'                => 'recipe',
     'public'              => true,
     'menu_icon'           => 'dashicons-list-view',
   );
